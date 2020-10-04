@@ -1,0 +1,23 @@
+[spotify]
+full_text=Spotify
+command=~/.config/i3blocks/scripts/spotify.py
+color=#689415
+background=#101938
+#border=#ff0000
+interval=5
+
+[volume]
+command=~/.config/i3blocks/scripts/volume
+#LABEL=♪ 
+#LABEL=VOL 
+interval=1
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+#NATURAL_MAPPING=0
+
+[date]
+full_text=Date
+command=date "+%A %d %B, %I:%M:%S "
+interval=1
